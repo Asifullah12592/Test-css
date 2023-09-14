@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 30px;
+    background-color: gainsboro;
+    
+    
+
+}
+.topbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   }
+ul li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+   
+}
+ul li ul li{
+    display: none;
+    width: 80px;
+    
+}
+ul li:hover ul li{
+    display: block;
+    
+}
+.b-1{
+    margin-left: 50px;
+}
+.b-1 i{
+    margin-right: 5px;
+    /* border: 1px solid black; */
+}
+.b-2{
+    margin-left: 20px;
+}
+.b-2 i{
+    margin-right: 5px;
+    /* border: 1px solid black; */
+}
+.b-3{
+    float: right;
+    margin-right: 150px;
+    margin-top: 0;
+    background-color: white;
+    width: 80px;
+   
+}
+.navbar-brand{
+    margin-left: 50px !important;
+}
+#navbarScroll ul li{
+    /* border: 1px solid black !important; */
+    margin-left:30px !important ;
+    color: black;
+
+}
+.d-flex button{
+    width: 200px !important;
+    margin: 10px;
+}
+.btn-1{
+    background-color: blue !important;
+    color: white;
+    
+}
+.btn-1:hover{
+    background-color: rgba(0, 0, 255, 0.658) !important;
+   
+}
+
+.btn-2{
+    background-color: green;
+    color: white;
+}
+.card-1{
+    /* height: 100vh !important; */
+    border: none;
+}
+.card-1 h1{
+    font-size: 46px;
+    font-weight: bold;
+}
+.card-1 h1 span{
+    color: rgb(6, 245, 6);
+}  
+.card-1 h1 div{
+    border-radius: 46%;
+    background-color: #dad3d3;
+}
+.card-1 h1, h4, p, button{
+    /* margin-left: 60px; */
+}
+.card-1 button{
+    width: 150px;
+    padding: 10px;
+   
+}
+.card-1 button:hover{
+    background-color: gray;
+    color: white;
+}
+.card-1 h4{
+    font-size: 26px !important;
+    font-weight: 1200px;
+    /* border: 1px solid black !important; */
+
+}
+.card-1 h4 span{
+    color: blue !important;
+}
+.card-1 p{
+    /* margin-left: 60px; */
+    font-size: 20px !important;
+    color: rgb(14, 13, 13) !important;
+    /* border: 1px solid black !important; */
+}
+
+
+/* .card-1 h1 div{
+    border: 1px solid black;
+    width: 100px;
+} */
+
+.co-2 img{
+    /* width: 50% !important; */
+    height: 550px !important;
+}
+/* end */
+.img h1{
+    /* border: 1px solid black !important; */
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.img-2{
+    width: 100%;
+    /* height: 100px !important; */
+    /* position: relative; */
+    /* border: 1px solid black !important; */
+}
+.img-2-r{
+    width: 100%;
+    /* border: 1px solid black !important; */
+    margin-left: 20px;
+
+}
+.img-2-i{
+    width: 170px;
+    height: 120px !important;
+    justify-items: center;
+    margin-left: 10px;
+    
+    /* border: 1px solid black !important; */
+    background-color: rgb(231, 229, 197) !important;
+    /* position: absolute; */
+}
+.img-2-i img{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.img-2-i p{
+    font-size: 24px;
+    text-align: center;
+}
+.card-group{
+    /* border: 1px solid black !important; */
+    margin-top: 10px;
+
+}
+
+.card-group .g-1{
+    /* border: 1px solid black !important; */
+    width: 90%;
+    margin-top: 10px;
+    border: none !important;
+    margin: auto;
+    position: relative;
+   
+
+}
+.card-group .g-1 img{
+    /* margin: 10px; */
+    border: none !important;
+    background-color: rgba(0, 0, 0, 0.534);
+    
+    
+}
+.g-1 h4{
+    /* border: 1px solid black !important; */
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    font: bold;
+    color: white;
+}
+.g-1 button{
+    width: 90%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    background-color: rgb(101, 194, 8);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.it{
+    height: auto;
+    /* border: 1px solid black !important;  */
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.it-1{
+    width: 48%;
+    /* border: 1px solid black !important; */
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: ; */
+    flex-wrap: wrap;
+}
+.it-1m1{
+    /* border: 1px solid black !important; */
+    width: 48%;
+    /* border-radius: 20px; */
+}
+.it-1m1 img{
+    border-top-left-radius: 80px;
+}
+.it-1m2{
+    /* border: 1px solid black !important; */
+    width: 48%;}
+.it-1m3{
+    /* border: 1px solid black !important; */
+    width: 48%;margin-top: 2px}
+.it-1m4{
+    /* border: 1px solid black !important; */
+    width: 48%;margin-top: 2px}
+
+
+.it-3{
+    width: 50%;
+    /* border: 1px solid black !important; */
+}
+ .it-3 h1{
+    color: black;
+}
+.it-3 h6{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.it-3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+} 
+
+.t-5 h5, h1{
+    /* border: 1px solid black !important; */
+    width: 350px;
+    margin: auto;
+    text-align: center;
+}
+.t-5 h5{
+    color: greenyellow;
+
+}
+.end{
+    margin-left: 0px;
+    width: 100%;
+    background-color: black;
+    /* border: 1px solid black !important; */
+    height: auto;
+    /* margin-top: 50px; */
+    
+}
+
+
+.par1{
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+.par1 div{
+    /* border: 1px solid rgb(253, 248, 248) !important; */
+    width: 22%;
+}
+.logo{
+    /* margin: auto; */
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.About h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid rgb(243, 241, 241) !important; */
+    width: 100%;
+    text-align: left;
+}
+.About h1, p{
+    /* text-align: center; */
+    line-height: 40px;
+}
+.Explore h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid rgb(243, 241, 241) !important; */
+    width: 100%;
+    text-align: left;
+
+}
+.Contact h1{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid rgb(243, 241, 241) !important; */
+    width: 100%;
+    text-align: left;
+
+
+}
+
+ 
+
+ 
+
